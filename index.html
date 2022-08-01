@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="d-flex justify-content-center">
+        <div class="card w-50">
+          <div class="card-header bg-dark text-white text-center">
+            Bài tập mảng
+          </div>
+          <div class="card-body">
+            <div class="form-group">
+              <input
+                class="form-control"
+                type="number"
+                id="number"
+                placeholder="Nhập số"
+              />
+            </div>
+            <div class="form-group my-2 text-center">
+              <button class="btn btn-success" id="btnAdd">Thêm số</button>
+            </div>
+            <div class="form-check">
+              <input
+                type="radio"
+                class="form-check-input"
+                name="optradio"
+                checked
+              />Bài 1: Tổng các số dương trong mảng.
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="optradio" />Bài
+              2: Đếm có bao nhiêu số dương trong mảng.
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="optradio" />Bài
+              3: Tìm số nhỏ nhất trong mảng.
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="optradio" />Bài
+              4: Tìm số dương nhỏ nhất trong mảng.
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="optradio" />Bài
+              5: Tìm số chẵn cuối cùng trong mảng. Nếu mảng không có giá trị
+              chẵn thì trả về -1.
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="optradio" />Bài
+              6: Đổi chỗ 2 giá trị trong mảng theo vị trí (Cho nhập vào 2 vị trí
+              muốn đổi chỗ giá trị).
+              <p class="bg-secondary text-white">
+                Đã làm ở phần sắp xếp mảng tăng dần
+              </p>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="optradio" />Bài
+              7: Sắp xếp mảng theo thứ tự tăng dần.
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="optradio" />Bài
+              8: Tìm số nguyên tố đầu tiên trong mảng. Nếu mảng không có số
+              nguyên tố thì trả về – 1.
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="optradio" />Bài
+              9: Nhập thêm 1 mảng số thực, tìm xem trong mảng có bao nhiêu số
+              nguyên?
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="optradio" />Bài
+              10: So sánh số lượng số dương và số lượng số âm xem số nào nhiều
+              hơn.
+            </div>
+          </div>
+          <div class="card-footer text-center">
+            <button class="btn btn-secondary" id="btnThucHien">
+              Thực hiện
+            </button>
+            <div class="mt-2" id="display"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
